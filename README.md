@@ -29,8 +29,19 @@ A web-based land cover classification system using a pretrained ResNet50 model a
    pip install -r requirements.txt
    ```
 
-3. **Download Model & Class Indices:**
-   - Place `ResNet50_eurosat.h5` and `class_indices.npy` in the project root directory.
+3. **Download Model Files:**
+   Download the following files and place them in the `models` directory:
+   - [ResNet50_eurosat.h5](https://drive.google.com/file/d/your-file-id/view?usp=sharing) - Pretrained model weights
+   - [model.weights.best.keras](https://drive.google.com/file/d/your-file-id/view?usp=sharing) - Best model weights
+   - [class_indices.npy](https://drive.google.com/file/d/your-file-id/view?usp=sharing) - Class index mapping
+
+   The `models` directory structure should look like this:
+   ```
+   models/
+   ├── ResNet50_eurosat.h5
+   ├── model.weights.best.keras
+   └── class_indices.npy
+   ```
 
 ### Running the App
 
@@ -70,9 +81,11 @@ Open your browser and go to the provided local URL (usually http://localhost:850
 ├── data_processor.py     # Data preprocessing utilities
 ├── config.py             # Configuration (class names, paths)
 ├── requirements.txt      # Python dependencies
-├── ResNet50_eurosat.h5   # Pretrained model weights (not included)
-├── class_indices.npy     # Class index mapping (not included)
-└── README.md             # This file
+├── models/              # Directory for model files
+│   ├── ResNet50_eurosat.h5
+│   ├── model.weights.best.keras
+│   └── class_indices.npy
+└── README.md            # This file
 ```
 
 ## License
