@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Model files
+*.h5
+*.keras
+*.npy
