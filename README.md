@@ -32,8 +32,8 @@ A web-based land cover classification system using a pretrained ResNet50 model a
 
 3. **Download Model Files:**
    Download the following files and place them in the `models` directory:
-   - [ResNet50_eurosat.h5](https://drive.google.com/file/d/your-file-id/view?usp=sharing) - Pretrained model weights
-   - [model.weights.best.keras](https://drive.google.com/file/d/your-file-id/view?usp=sharing) - Best model weights
+   - [ResNet50_eurosat.h5](https://drive.google.com/file/d/1h6hYGdng9vgKLcF3rj2KPo4KpDjJ8pDK/view?usp=sharing) - Pretrained model weights
+   - [model.weights.best.keras](https://drive.google.com/file/d/15exC4HzpCZpNiH8WqlWrn4KgHBFisIo-/view?usp=sharing) - Best model weights
    - [class_indices.npy](https://drive.google.com/file/d/1lXlk_Ho4h540ut75KUTL2BJPwpkbd8lk/view?usp=sharing) - Class index mapping
 
    The `models` directory structure should look like this:
