@@ -24,9 +24,9 @@ class WebApp:
         
         # Load model and class indices
         if not self.model_handler.load_model():
-            st.error("Failed to load model. Please check if ResNet50_eurosat.h5 exists.")
+            st.error("Failed to load model. Please check if models/ResNet50_eurosat.h5 exists.")
         if not self.model_handler.load_class_indices():
-            st.error("Failed to load class indices. Please check if class_indices.npy exists.")
+            st.error("Failed to load class indices. Please check if models/class_indices.npy exists.")
         
     def main_page(self):
         st.title("Land Cover Classification System")
