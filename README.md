@@ -5,6 +5,7 @@ A web-based land cover classification system using a pretrained ResNet50 model a
 ## Features
 
 - **Deep Learning Model**: Utilizes a pretrained ResNet50 model fine-tuned on EuroSAT satellite imagery.
+   * (you can access [training notebook](https://colab.research.google.com/drive/1fXO6BYwr-uligC0ZSmFa4LFi_u6oN6Yi?usp=sharing) via Colab.)
 - **User-Friendly Web App**: Built with Streamlit for interactive image upload and real-time predictions.
 - **Class Visualization**: Displays prediction confidence for each land cover class using intuitive bar charts.
 - **Configurable & Modular**: Clean separation of model handling, data processing, and visualization logic.
@@ -31,9 +32,9 @@ A web-based land cover classification system using a pretrained ResNet50 model a
 
 3. **Download Model Files:**
    Download the following files and place them in the `models` directory:
-   - [ResNet50_eurosat.h5](https://drive.google.com/file/d/your-file-id/view?usp=sharing) - Pretrained model weights
-   - [model.weights.best.keras](https://drive.google.com/file/d/your-file-id/view?usp=sharing) - Best model weights
-   - [class_indices.npy](https://drive.google.com/file/d/your-file-id/view?usp=sharing) - Class index mapping
+   - [ResNet50_eurosat.h5](https://drive.google.com/file/d/1h6hYGdng9vgKLcF3rj2KPo4KpDjJ8pDK/view?usp=sharing) - Pretrained model weights
+   - [model.weights.best.keras](https://drive.google.com/file/d/15exC4HzpCZpNiH8WqlWrn4KgHBFisIo-/view?usp=sharing) - Best model weights
+   - [class_indices.npy](https://drive.google.com/file/d/1lXlk_Ho4h540ut75KUTL2BJPwpkbd8lk/view?usp=sharing) - Class index mapping
 
    The `models` directory structure should look like this:
    ```
